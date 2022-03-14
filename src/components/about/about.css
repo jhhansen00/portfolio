@@ -1,0 +1,92 @@
+.a {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.a-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.a-l-bg {
+    clip-path: polygon(0 0, 75% 0, 100% 100%, 25% 100%);
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.a-l-bg2 {
+    clip-path: polygon(100% 0, 74% 0%, 99% 102%, 100% 100%);
+    background-color: black;
+    width: 51%;
+    height: 100%;
+    position: absolute;
+}
+
+.a-left-wrapper {
+    height: 50%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.a-languages {
+    font-size: 40px;
+    color: white;
+}
+
+.a-lang-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-top: 80px;
+}
+
+.a-lang {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 10px
+}
+
+.a-right {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.a-r-bg {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.a-right-wrapper {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about {
+    padding-left: 100px;
+    color: white;
+}
+
+.a-about {
+    color: white;
+    padding-left: 10px;
+}
