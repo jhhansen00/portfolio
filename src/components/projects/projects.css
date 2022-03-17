@@ -1,0 +1,28 @@
+.p {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.p-left-bg {
+    width: 10vh;
+    height: 100vh;
+}
+
+.p-center-bg {
+    width: 200vh;
+    height: 100vh;
+    background-color: black;
+    position: relative
+}
+
+.p-right-bg {
+    width: 10vh;
+    height: 100vh;
+}
+
+.p-title {
+    color: white;
+    display: flex;
+    align-items: center;
+}
