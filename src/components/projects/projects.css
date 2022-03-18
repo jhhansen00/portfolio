@@ -4,25 +4,51 @@
     align-items: center;
 }
 
-.p-left-bg {
-    width: 10vh;
-    height: 100vh;
+.p-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
-.p-center-bg {
-    width: 200vh;
-    height: 100vh;
+.p-left-bg {
+    clip-path: polygon(0 0, 25% 0, 0 100%, 0% 100%);
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+.p-left-bg2 {
+    clip-path: polygon(25% 0, 99.5% 0, 75% 100%, 0 100%);
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+.p-left-bg3 {
+    clip-path: polygon(99.4% 0, 100% 0, 100% 100%, 74.5% 100%);
     background-color: black;
-    position: relative
+    width: 50.0525%;
+    height: 100%;
+    position: absolute;
+}
+
+.p-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .p-right-bg {
-    width: 10vh;
-    height: 100vh;
-}
-
-.p-title {
-    color: white;
-    display: flex;
-    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
 }
