@@ -28,6 +28,11 @@ function Projects () {
                         <div>Python, Django, PostgreSql, HTML, CSS</div>
                         <div className="links"><a target="_blank" href="https://gitemployed.herokuapp.com/" className="link">Site</a> | <a href="https://github.com/Nexusmane/GitEmployed" className="link">Github</a></div>
                     </div>
+                    <div className="sv">
+                        <h1 className="ptitles">Study Vibes</h1>
+                        <div>MongoDB, Express.js, React, Node,js</div>
+                        <div className="links"><a target="_blank" href="https://study-vibes.herokuapp.com/" className="link">Site</a> | <a href="https://github.com/jhhansen00/Study-Vibes" className="link">Github</a></div>
+                    </div>
                 </div>
             </div>
             <div className="p-right">
