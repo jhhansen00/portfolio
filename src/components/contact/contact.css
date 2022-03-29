@@ -1,0 +1,29 @@
+.contact {
+    height: 8vh;
+    background-color: black;
+}
+
+.c-left {
+    flex: 1;
+    display: flex;
+    color: white;
+    width: 99%;
+    justify-content: left;
+    flex-direction: row;
+    padding: 15px 0px 0px 10px;
+}
+
+.c-lgit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.right {
+    padding-left: 10px;
+}
+
+.res {
+    color: red;
+}

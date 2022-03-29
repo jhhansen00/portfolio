@@ -13,7 +13,7 @@ function Intro() {
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Software Engineer</div>
                             <div className="i-title-item">Web Developer</div>
-                            <div className="i-title-item">Podcaster</div>
+                            <div className="i-title-item">Music Enthusiast</div>
                             <div className="i-title-item">Tech Nerd</div>
                         </div>
                     </div>

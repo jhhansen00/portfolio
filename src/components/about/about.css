@@ -82,8 +82,12 @@
 }
 
 .about {
-    padding-left: 100px;
+    padding-left: 30px;
+    padding-right: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .a-about {
